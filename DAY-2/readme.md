@@ -1,0 +1,1 @@
+this is our day 2 project that showcases our ability to make and work with html and internal css for a website.
