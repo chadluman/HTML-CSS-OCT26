@@ -57,11 +57,11 @@
         overflow: hidden;
       }
 
-        .video-background video {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
+      .video-background video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
       /* 
       Header section styling:
       - Blue background (#3b82f6)
@@ -227,10 +227,10 @@
 
   <body>
     <div class="video-background">
-  <video autoplay muted loop playsinline>
-    <source src="../DAY-2/video/hero-furniture-bg13.mp4" type="video/mp4">
-  </video>
-</div>
+      <video autoplay muted loop playsinline>
+        <source src="../DAY-2/video/hero-furniture-bg13.mp4" type="video/mp4" />
+      </video>
+    </div>
     <!-- 
     Page header section.
     Contains the main title of the page.
@@ -277,7 +277,7 @@
           placeholder="Doe"
           required
         />
- <!-- 
+        <!-- 
         Phone Number field.
         type="tel" is the semantically correct type for phone numbers.
         It also triggers the numeric keyboard on mobile devices.
@@ -349,13 +349,16 @@
  FOOTER SECTION
  ================================================================================
  -->
-<footer class="footer">
-<!-- 
+    <footer class="footer">
+      <!-- 
  &copy; is the copyright symbol entity.
  <span id="year"></span> will be filled dynamically by JavaScript.
  -->
-<p>&copy; <span id="year"></span> Eras Furniture &amp; Landscape. All rights reserved.</p>
-</footer>
+      <p>
+        &copy; <span id="year"></span> Eras Furniture &amp; Landscape. All
+        rights reserved.
+      </p>
+    </footer>
 
     <!-- 
     JavaScript to dynamically set the current year in the footer.
@@ -365,3 +368,4 @@
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>
+</html>
